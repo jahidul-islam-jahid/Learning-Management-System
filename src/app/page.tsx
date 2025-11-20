@@ -8,7 +8,7 @@ import CourseComponent from "@/components/CourseComponent";
 import SharedHeading from "@/components/SharedHeading";
 import ChooseUsComponent from "@/components/ChooseUsComponent";
 import CountList from "@/components/CountList";
-import CourseFAQ from "@/components/CourseFAQ"
+import CourseFAQ from "@/components/CourseFAQ";
 
 function Page() {
   const [categories, setCategories] = useState([]);
@@ -60,7 +60,6 @@ function Page() {
 
       {/* aboutcomponent */}
       <AboutComponent></AboutComponent>
-     
 
       <div className="py-10">
         <SharedHeading
@@ -68,17 +67,23 @@ function Page() {
           heading="Select The Industry Where You Want To Learn"
         />
         <div className="container mx-auto flex flex-wrap justify-center gap-5 mb-10">
-          {categories.map((item) => (
-            <button className="from-blue-600 to-purple-600 bg-gradient-to-r text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-all duration-300 hover:shadow-lg w-fit font-semibold text-lg cursor-pointer">
-              {item.title}
-            </button>
-          ))}
+          {categories.map(
+            (item: {
+              id: number;
+              title: string;
+              icon: string;
+              slug: string;
+            }) => (
+              <button className="from-blue-600 to-purple-600 bg-gradient-to-r text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-all duration-300 hover:shadow-lg w-fit font-semibold text-lg cursor-pointer">
+                {item.title}
+              </button>
+            )
+          )}
         </div>
       </div>
       <ChooseUsComponent></ChooseUsComponent>
       <CourseComponent></CourseComponent>
 
-      
       <div className="py-10">
         <CountList></CountList>
       </div>

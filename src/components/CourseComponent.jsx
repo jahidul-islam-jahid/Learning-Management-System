@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import CourseCard from "@/app/courses/courseCard/page";
 import SharedHeading from "@/components/SharedHeading";
+import CourseCard from "./CourseCard";
 
 function page() {
   const [courses, setCourses] = useState([]);
@@ -29,7 +29,10 @@ function page() {
   return (
     <div>
       <div className="pt-10">
-        <SharedHeading tagline="Top Class Courses" heading="Explore Featured Courses"/>
+        <SharedHeading
+          tagline="Top Class Courses"
+          heading="Explore Featured Courses"
+        />
       </div>
       <div className="container mx-auto justify-center mt-10 flex gap-4">
         <button

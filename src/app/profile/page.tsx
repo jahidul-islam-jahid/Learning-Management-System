@@ -6,7 +6,7 @@ function page() {
   const { data } = useSession();
   console.log(data);
   if (!data) return <p>loading</p>;
-  const { email, name, image } = data.user;
+  const { email, name, image }:any = data.user;
   if (!email) return <p>loading</p>;
 
   return (

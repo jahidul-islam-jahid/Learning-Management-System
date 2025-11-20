@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillThunderbolt, AiOutlineClockCircle, AiOutlineUser, AiOutlineBook, AiOutlineStar, AiOutlineCheckCircle } from 'react-icons/ai';
 import { BsArrowLeft } from 'react-icons/bs';
 
-async function CourseDetailsPage({ params }) {
+async function CourseDetailsPage({ params }:{params:Promise<{courseId:string}>}) {
     const { courseId } = await params;
 
     const res = await fetch(`http://localhost:5000/courses/${courseId}`);
@@ -163,7 +163,7 @@ async function CourseDetailsPage({ params }) {
                                 <div className="mb-8">
                                     <h3 className="text-xl font-bold text-gray-900 mb-4">Course Information</h3>
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                        {course.courseInformation.map((info, index) => (
+                                        {course.courseInformation.map((info:any, index:any) => (
                                             <div key={index} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
                                                 <AiOutlineCheckCircle className="text-green-500 flex-shrink-0" />
                                                 <span className="text-gray-700">{info}</span>

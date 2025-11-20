@@ -28,7 +28,11 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "src/app/courses/page.jsx", "src/app/courses/courseCard/page.jsx", "src/app/page.jsx"  ],
+    "**/*.mts",
+    "src/app/courses/page.tsx",
+    "src/components/CourseCard.tsx",
+    "src/app/page.tsx",
+    "src/app/profile/page.tsx"
+  ],
   "exclude": ["node_modules"]
 }

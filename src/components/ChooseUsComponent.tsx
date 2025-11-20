@@ -8,7 +8,6 @@ function ChooseUsComponent() {
       .then((res) => res.json())
       .then((data) => setChooseUs(data));
   }, []);
-  console.log(chooseUs);
   return (
     <div className="bg-black py-30">
       <SharedComponent
@@ -21,7 +20,7 @@ function ChooseUsComponent() {
         className="container mx-auto grid md:grid-cols-3 gap-10 py-5 text-white
        "
       >
-        {chooseUs.map((step) => (
+        {chooseUs.map((step:any) => (
           <div
             key={step.id}
             className="text-center border border-gray-700 px-4 py-10 roundedxl

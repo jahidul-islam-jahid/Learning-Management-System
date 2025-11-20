@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-function CourseCard({ course }) {
+function CourseCard({ course }:any) {
   return (
     <Link href={`/course-details/${course.id}`} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer border border-gray-100 overflow-hidden group hover:-translate-y-1">
       {/* Thumbnail with overlay */}
