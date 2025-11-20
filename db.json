@@ -1,0 +1,465 @@
+{
+ 
+  "courses": [
+    {
+      "id": "101",
+      "title": "Full Stack Web Development",
+      "instructor": "Jahidul Islam",
+      "category": "Web Development",
+      "price": 4999,
+      "discountPrice": 2999,
+      "duration": "3 Months",
+      "lessons": 48,
+      "level": "Beginner to Advanced",
+      "rating": 4.8,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Learn MERN Stack (MongoDB, Express, React, Node) and build real-world projects.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q4"],
+      "apt": "3/20"
+    },
+    {
+      "id": "102",
+      "title": "React JS Complete Guide",
+      "instructor": "Shakil Ahmed",
+      "category": "Frontend Development",
+      "price": 2999,
+      "discountPrice": 1999,
+      "duration": "2 Months",
+      "lessons": 30,
+      "level": "Beginner to Intermediate",
+      "rating": 4.6,
+      "thumbnail": "/image/react.webp",
+      "description": "Master React with hooks, components, routing, context API, and real projects.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q4"],
+      "apt": "3/20"
+    },
+    {
+      "id": "103",
+      "title": "Node & Express API Development",
+      "instructor": "Mahmud Hasan",
+      "category": "Backend Development",
+      "price": 2499,
+      "discountPrice": 1599,
+      "duration": "1.5 Months",
+      "lessons": 25,
+      "level": "Intermediate",
+      "rating": 4.7,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Learn to build REST APIs, JWT authentication, middleware, and scalable backend apps.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q1", "Q2", "Q3", "Q4"],
+      "apt": "4/25"
+    },
+    {
+      "id": "104",
+      "title": "UI/UX Design Bootcamp",
+      "instructor": "Raisa Akter",
+      "category": "Design",
+      "price": 3999,
+      "discountPrice": 2499,
+      "duration": "2 Months",
+      "lessons": 40,
+      "level": "Beginner",
+      "rating": 4.5,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Learn Figma, wireframing, prototyping, user research, and complete UI/UX workflow.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": true,
+      "academy": "Console Academy",
+      "quarters": ["Q4"],
+      "apt": "3/20"
+    },
+    {
+      "id": "105",
+      "title": "Digital Marketing Masterclass",
+      "instructor": "Arif Khan",
+      "category": "Marketing",
+      "price": 2999,
+      "discountPrice": 1799,
+      "duration": "1 Month",
+      "lessons": 20,
+      "level": "Beginner",
+      "rating": 4.4,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Learn SEO, Facebook Ads, Google Ads, content marketing, and branding strategies.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q1", "Q2", "Q3", "Q4"],
+      "apt": "4/25"
+    },
+    {
+      "id": "106",
+      "title": "Python Programming for Beginners",
+      "instructor": "Nusrat Jahan",
+      "category": "Programming",
+      "price": 1999,
+      "discountPrice": 1299,
+      "duration": "1.5 Months",
+      "lessons": 22,
+      "level": "Beginner",
+      "rating": 4.6,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Start programming with Python, learn loops, functions, OOP, and small projects.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q4"],
+      "apt": "3/20"
+    },
+    {
+      "id": "107",
+      "title": "Advanced JavaScript Mastery",
+      "instructor": "Rafiul Karim",
+      "category": "Programming",
+      "price": 3499,
+      "discountPrice": 2199,
+      "duration": "2 Months",
+      "lessons": 35,
+      "level": "Intermediate to Advanced",
+      "rating": 4.7,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Deep dive into JavaScript: ES6+, async programming, DOM mastery, and patterns.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q1", "Q2", "Q3", "Q4"],
+      "apt": "4/25"
+    },
+    {
+      "id": "108",
+      "title": "Video Editing with Adobe Premiere Pro",
+      "instructor": "Tanzim Rahman",
+      "category": "Multimedia",
+      "price": 2599,
+      "discountPrice": 1699,
+      "duration": "1 Month",
+      "lessons": 18,
+      "level": "Beginner",
+      "rating": 4.3,
+      "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+      "description": "Learn professional video editing, color grading, transitions, and YouTube editing.",
+      "overview": {
+        "curriculum": false,
+        "instructor": true,
+        "student": true
+      },
+      "longDescription": "Explain why device parallel is needed to be installed on multiple platforms. Quickly complete using a high-resolution script produced in HTML, such as the other one and also installation data with HTML tools. Unpack through all files contained in the page process we can do more. People from the beginning of your application will work well with you at the same time. These frequently display a variety of products or web stores and more than not provided. Unready completed requests for each column from building a services. Quickly given individual issues from the view of each client folder. In this timely, people typing and installing a virtual tool will be built on an initial, professional layout that will help create a new environment. The user needs to use the virtual tool to provide a seamless interface between the users and the clients. This allows you to build a virtual tool to enable you to maintain a safe and secure environment.",
+      "whatYouLearn": "Quickly creating an easy-to-use course and professional reader. According to their cross media website info: open-worlds.com, but only in touch with our own website. In my opinion we are aware of the need for a specific course. Everything relevant about us was a great deal of research on employee career development and health.",
+      "displayPrice": 90.00,
+      "courseInformation": [
+        "A number: 5,000 employees",
+        "A number: 8,000 employees",
+        "A number: 6,000 employees",
+        "A number: 10,000 employees",
+        "A number: 15,000 employees",
+        "A number: 16,000 employees"
+      ],
+      "hasShortTitleExam": true,
+      "isLimitedTime": false,
+      "academy": "Console Academy",
+      "quarters": ["Q4"],
+      "apt": "3/20"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "1",
+      "name": "Web Development",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=4tRhIR7djO2D&format=png",
+      "description": "Learn full stack and frontend development with real projects."
+    },
+    {
+      "id": "2",
+      "name": "Frontend Development",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=108784&format=png",
+      "description": "Master frontend technologies like React, HTML, CSS, JavaScript."
+    },
+    {
+      "id": "3",
+      "name": "Backend Development",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=54087&format=png",
+      "description": "Learn server-side development, APIs, and databases."
+    },
+    {
+      "id": "4",
+      "name": "Design",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=59838&format=png",
+      "description": "Learn professional UI/UX design and prototyping tools."
+    },
+    {
+      "id": "5",
+      "name": "Marketing",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=21341&format=png",
+      "description": "Learn digital marketing, SEO, ads, and social media strategy."
+    },
+    {
+      "id": "6",
+      "name": "Programming",
+      "totalCourses": 2,
+      "thumbnail": "https://img.icons8.com/?size=512&id=13441&format=png",
+      "description": "Start programming from basics to advanced topics."
+    },
+    {
+      "id": "7",
+      "name": "Multimedia",
+      "totalCourses": 1,
+      "thumbnail": "https://img.icons8.com/?size=512&id=81475&format=png",
+      "description": "Learn video editing and content creation with Adobe tools."
+    }
+  ],
+
+  "categoryList":[
+  {
+    "id": 1,
+    "title": "Business Management",
+    "icon": "management",
+    "slug": "business-management"
+  },
+  {
+    "id": 2,
+    "title": "Arts & Design",
+    "icon": "design",
+    "slug": "arts-design"
+  },
+  {
+    "id": 3,
+    "title": "Personal Development",
+    "icon": "personal",
+    "slug": "personal-development"
+  },
+  {
+    "id": 4,
+    "title": "Health & Fitness",
+    "icon": "fitness",
+    "slug": "health-fitness"
+  },
+  {
+    "id": 5,
+    "title": "Marketing",
+    "icon": "marketing",
+    "slug": "marketing"
+  },
+  {
+    "id": 6,
+    "title": "Business & Finance",
+    "icon": "finance",
+    "slug": "business-finance"
+  },
+  {
+    "id": 7,
+    "title": "Computer Science",
+    "icon": "computer",
+    "slug": "computer-science"
+  },
+  {
+    "id": 8,
+    "title": "Video & Photography",
+    "icon": "video",
+    "slug": "video-photography"
+  },
+  {
+    "id": 9,
+    "title": "Data Science",
+    "icon": "data",
+    "slug": "data-science"
+  },
+  {
+    "id": 10,
+    "title": "IT Startup Agency",
+    "icon": "startup",
+    "slug": "it-startup-agency"
+  },
+  {
+    "id": 11,
+    "title": "Software Company",
+    "icon": "software",
+    "slug": "software-company"
+  },
+  {
+    "id": 12,
+    "title": "High-Tech Company",
+    "icon": "hitech",
+    "slug": "high-tech-company"
+  },
+  {
+    "id": 13,
+    "title": "3D Gaming Studio",
+    "icon": "gaming",
+    "slug": "3d-gaming-studio"
+  }
+],
+  "chooseUsCategory":[
+  {
+    "id": 1,
+    "title": "Book Free Consultation",
+    "description": "Standards in leadership skills synergize optimal expertise rather than innovative leadership skills.",
+    "icon": "consultation",
+    "image": "/image/request-img-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Make Easy Payment",
+    "description": "Standards in leadership skills synergize optimal expertise rather than innovative leadership skills.",
+    "icon": "payment",
+    "image": "/image/promo-img-3.png"
+  },
+  {
+    "id": 3,
+    "title": "Schedule First Lesson",
+    "description": "Standards in leadership skills synergize optimal expertise rather than innovative leadership skills.",
+    "icon": "schedule",
+    "image": "/image/promo-img-2.png"
+  }
+],
+"countList":[
+  {
+    "id": 1,
+    "count": "3,192+",
+    "label": "SUCCESSFULLY TRAINED"
+  },
+  {
+    "id": 2,
+    "count": "15,485+",
+    "label": "CLASSES COMPLETED"
+  },
+  {
+    "id": 3,
+    "count": "97.55%",
+    "label": "SATISFACTION RATE"
+  },
+  {
+    "id": 4,
+    "count": "97.55%",
+    "label": "SATISFACTION RATE"
+  }
+]
+
+
+}
