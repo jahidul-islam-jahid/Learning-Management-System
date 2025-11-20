@@ -5,8 +5,8 @@ import { BsArrowLeft } from 'react-icons/bs';
 async function CourseDetailsPage({ params }:{params:Promise<{courseId:string}>}) {
     const { courseId } = await params;
 
-    const res = await fetch(`http://localhost:5000/courses/${courseId}`);
-    const course = await res.json();
+    const res = await fetch("db.json");
+    const course = (await res.json()).courses.find((course:any)=>course.id==courseId);
 
     if (!course) {
         return (

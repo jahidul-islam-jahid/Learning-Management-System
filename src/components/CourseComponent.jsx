@@ -6,20 +6,19 @@ import CourseCard from "./CourseCard";
 function page() {
   const [courses, setCourses] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/courses")
+    fetch("db.json")
       .then((res) => res.json())
-      .then((data) => setCourses(data));
+      .then((data) => setCourses(data.courses));
   }, []);
 
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/categories")
+    fetch("db.json")
       .then((res) => res.json())
-      .then((data) => setCategories(data));
+      .then((data) => setCategories(data.categories));
   }, []);
 
   const [currentCategory, setCurrentCategory] = useState(0);
-  console.log(currentCategory);
 
   const filteredCategory =
     currentCategory != 0

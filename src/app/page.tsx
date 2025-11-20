@@ -13,9 +13,9 @@ import CourseFAQ from "@/components/CourseFAQ";
 function Page() {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/categoryList")
+    fetch("db.json")
       .then((res) => res.json())
-      .then((data) => setCategories(data));
+      .then((data) => setCategories(data.categoryList));
   }, []);
   return (
     <div>

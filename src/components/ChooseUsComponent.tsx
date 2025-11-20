@@ -4,9 +4,9 @@ import SharedComponent from "./SharedHeading";
 function ChooseUsComponent() {
   const [chooseUs, setChooseUs] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/chooseUsCategory")
+    fetch("db.json")
       .then((res) => res.json())
-      .then((data) => setChooseUs(data));
+      .then((data) => setChooseUs(data.chooseUsCategory));
   }, []);
   return (
     <div className="bg-black py-30">

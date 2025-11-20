@@ -4,9 +4,9 @@ function StatsSection() {
   const [stats, setStats] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/countList")
+    fetch("db.json")
       .then((res) => res.json())
-      .then((data) => setStats(data));
+      .then((data) => setStats(data.countList));
   }, []);
 
   return (
